@@ -1,0 +1,71 @@
+
+
+#divColor {
+    height: 500px;
+    width: 500px;
+    background-color: #099116;
+}
+
+#h2Color {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 54px;
+}
+
+#h2Color::after {
+    content: "verde";
+}
+
+@media (max-width: 1920px) {
+    #divColor {
+        background-color: #ffc812;
+    }
+    #h2Color::after {
+        content: "amarelo";
+    }
+}
+
+@media (max-width: 1366px) {
+    #divColor {
+        background-color: #6c0085;
+    }
+    #h2Color::after {
+        content: "roxo";
+    }
+}
+
+@media (max-width: 1080px) {
+    #divColor {
+        background-color: #ff1241;
+    }
+    #h2Color::after {
+        content: "vermelho";
+    }
+}
+
+@media (max-width: 1024px) {
+    #divColor {
+        background-color: #ff00e6;
+    }
+    #h2Color::after {
+        content: "rosa";
+    }
+}
+
+@media (max-width: 768px) {
+    #divColor {
+        background-color: #eb8100;
+    }
+    #h2Color::after {
+        content: "laranja";
+    }
+}
+
+@media (max-width: 420px) {
+    #divColor {
+        background-color: #00214d;
+    }
+    #h2Color::after {
+        content: "azul escuro";
+    }
+}
