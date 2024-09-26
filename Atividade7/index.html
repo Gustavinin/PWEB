@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col d-flex justify-content-center">
+                <div>
+                    <button class="jokenpoBtn btn btn-primary" onclick="selectJKP('pedra')"><img src="https://static.vecteezy.com/system/resources/thumbnails/022/025/119/small/gray-stone-isolated-on-a-transparent-background-png.png" alt=""></button>
+                    <button class="jokenpoBtn btn btn-success" onclick="selectJKP('papel')"><img src="https://static.vecteezy.com/system/resources/thumbnails/018/795/027/small/white-notebook-paper-with-all-edges-ripped-png.png" alt=""></button>
+                    <button class="jokenpoBtn btn btn-warning" onclick="selectJKP('tesoura')"><img src="https://static.vecteezy.com/system/resources/thumbnails/011/222/233/small_2x/scissors-for-haircuts-isolated-png.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="justify-content-center">
+                    <p id="jokenpoText" class="fs-1"></p>
+                    <p id="suaEscolha" class="fs-3"></p>
+                    <p id="escolhaCPU" class="fs-3"></p>
+                    <p id="resultado" class="fs-1 fw-bold"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

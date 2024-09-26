@@ -1,0 +1,8 @@
+.jokenpoBtn {
+    height: 100px;
+    width: 100px;
+    img {
+        height: 80px;
+        width: 80px;   
+    }
+}
